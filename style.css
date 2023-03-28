@@ -1,13 +1,53 @@
-/*
-.calculator-container{}
-.density-section-container{}
-.mass-section-container{}
-.volumen-section-container{}
-
-
-
+/*start
+Calculator main grid
+*/
+.calculator-container{
+  display: grid;
+  grid-template-areas:
+  "density-section-container"
+  "mass-section-container"
+  "volumen-section-container";
+  justify-content: center;
+  background-color: rgb(255, 115, 0);
+}
+.density-section-container{
+  grid-area: density-section-container;
+}
+.mass-section-container{
+  grid-area: mass-section-container;
+}
+.volumen-section-container{
+  grid-area: volumen-section-container;
+}
+/*end
+Calculator main grid
 */
 
-.img {
-  width: 50px;
+
+/*start
+button design
+*/
+.values-button-container{
+  text-align: center;
 }
+
+/*end
+button design
+*/
+
+
+/*start
+images size
+*/
+.den-img {
+  width: 70px;
+}
+.mass-img {
+  width: 80px;
+}
+.vol-img {
+  width: 40px;
+}
+/*end
+images size
+*/
