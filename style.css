@@ -30,7 +30,10 @@ button design
 .values-button-container{
   text-align: center;
 }
-
+.btn{
+  border-radius: 8px;
+  border: 1px solid black;
+}
 /*end
 button design
 */
